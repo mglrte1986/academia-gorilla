@@ -1,1 +1,119 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia Gorilla | Infraestructura y Formación Práctica</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #0d1117;
+      color: #f0f6fc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    h1 { color: #FF6B35; margin-bottom: 8px; font-size: 2.3rem; text-align: center; }
+    p.lead { color: #8b949e; max-width: 750px; text-align: center; margin-bottom: 28px; line-height: 1.6; font-size: 1.1rem; }
+    .gamma-frame {
+      width: 100%;
+      max-width: 950px;
+      height: 580px;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      margin-bottom: 36px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    .sponsors-box {
+      width: 100%;
+      max-width: 950px;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 28px;
+      background: #161b22;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .sponsors-box h2 { color: #FF6B35; margin-top: 0; font-size: 1.8rem; }
+    .tier-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 24px;
+      text-align: left;
+    }
+    .tier {
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 20px;
+      background: #0d1117;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .tier h3 { margin: 0 0 10px 0; color: #f0f6fc; font-size: 1.2rem; }
+    .tier p { color: #8b949e; font-size: 0.95rem; line-height: 1.5; margin-bottom: 20px; flex-grow: 1; }
+    .btn {
+      display: inline-block;
+      text-align: center;
+      padding: 12px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95rem;
+      transition: 0.2s ease;
+    }
+    .btn-orange { background: #FF6B35; color: #fff; }
+    .btn-orange:hover { background: #e55a28; }
+    .btn-outline { border: 1px solid #30363d; color: #c9d1d9; }
+    .btn-outline:hover { border-color: #8b949e; color: #fff; }
+  </style>
+</head>
+<body>
+
+  <h1>Academia Gorilla</h1>
+  <p class="lead">Infraestructura de educación técnica asíncrona, automatización con IA y Shell. Formación libre subsidiada por soluciones B2B.</p>
+
+  <!-- Mazo interactivo de Gamma -->
+  <iframe 
+    class="gamma-frame"
+    src="https://gamma.app/embed/y74ifahqmyf0vou" 
+    allow="fullscreen" 
+    title="Academia Gorilla: Infraestructura de Educación Práctica y Automatización">
+  </iframe>
+
+  <!-- Sección de Sponsors y Niveles de Sostenibilidad -->
+  <div class="sponsors-box">
+    <h2>Sponsors & Alianzas de Sostenibilidad</h2>
+    <p style="color: #8b949e; margin: 0 auto; max-width: 650px;">Elige cómo participar: apoya la infraestructura de código abierto o contrata soluciones directas de automatización.</p>
+    
+    <div class="tier-grid">
+      <div class="tier">
+        <div>
+          <h3>Aportación Voluntaria</h3>
+          <p>Apoyo a la comunidad abierta y desarrollo de repositorios de libre acceso.</p>
+        </div>
+        <a href="https://github.com/mglrte1986/academia-gorilla" class="btn btn-outline">Donar / Fork en GitHub</a>
+      </div>
+      <div class="tier">
+        <div>
+          <h3>Recursos Pro</h3>
+          <p><strong>$27 USD/mes</strong>. Acceso a scripts avanzados, plantillas de n8n/Make y soporte técnico directo.</p>
+        </div>
+        <a href="https://github.com/mglrte1986/academia-gorilla" class="btn btn-outline">Unirse Pro</a>
+      </div>
+      <div class="tier">
+        <div>
+          <h3>Sponsor & Implementación B2B</h3>
+          <p><strong>Desde $750 USD</strong>. Despliegue de bots de WhatsApp, agentes de IA y entornos Linux llave en mano.</p>
+        </div>
+        <a href="https://youtube.com/@preguntamesinmiedo" target="_blank" class="btn btn-orange">Agendar Proyecto</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
